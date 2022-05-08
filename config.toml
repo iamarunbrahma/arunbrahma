@@ -1,0 +1,37 @@
+baseURL = "https://iamarunbrahma.github.io/"
+languageCode = "en-us"
+title = "Arun Brahma"
+theme = "cactus"
+
+
+[params]
+    description = "It's a personal portfolio website"
+    mainSection = "posts"
+    projectsUrl = "https://github.com/iamarunbrahma"
+
+[[params.social]]
+    name = "github"
+    link = "https://github.com/iamarunbrahma"
+
+[[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/iamarunbrahma"
+
+[[params.social]]
+    name = "email"
+    link = "mithubrahma94@gmail.com"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3
